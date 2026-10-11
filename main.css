@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+header {
+  padding: 1rem 0;
+  background-color: #0c2c71;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  }
+
+nav{
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+}
+.logo img{
+	 width:160px;
+	 height:50px;
+}
+
+.brand{
+	width: 100px;
+	color:  #3e22bdb9;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+a{
+  padding: 15px 10px;
+  display: inline-block;
+	color:  #e45826;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none; 
+	font-family: 'Fira Sans',sans-serif;
+}
+a:hover {
+   background-color: #e45826; 
+   color:  #FFF;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c1bdcf;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ac1616;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #0c2c71;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  }
+
+ /* home */
+
+.section1{
+	display: flex;
+	height: 480px;
+}
+.section1 #div1{
+	width:60%;
+	height:100%;
+	background-color: #33414a;
+	border:1px solid;
+	color:white;
+	padding-left: 20px; 
+	
+}
+.section1 h1{
+	color: #f0a500;
+}
+.section1 h2{
+	color: #f0a500;
+}
+.section1 img{
+	width:40%;
+	height:60%;
+}
+.section2 #div1{
+	width:70%;
+	height:90%;
+	background-color: #33414a;
+	border:5px solid;
+	color:white;
+	padding-left: 10px; 
+  display: flex;
+	
+}
+.section2 h1{
+	color: #f0a500;
+}
+.section2 h2{
+	color: #f0a500;
+}
+.section2 img{
+	width:40%;
+	height:30%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* about us */
+
+.about-section {
+   display: flex;     
+   justify-content: center;
+   margin-top:10px;
+}
+.block{
+   width:400px;           
+   height:180px;         
+   padding:20px; 
+}
+ h1 {
+    color:white;
+   }
+ h2 {
+    color:rgb(58, 128, 0);
+   }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /*shadow effect*/
+    width: 50%;
+    margin-left:200px;
+    padding:10px;
+    text-align: center;
+    margin-top:10px;
+   }
+  .card > p {  /*style for paragraphs inside the card class*/
+    padding:10px;
+   }
+
+ /* services */
+
+.services-section {
+   display: flex;     
+   justify-content: center;
+   margin-top:10px;
+}
+
+
+
+ /* frequently asked questions */
+
+
+
+
+
+/* Contact us */
+
+
+
+
+
+/* news */
+
+

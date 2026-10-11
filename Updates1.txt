@@ -1,0 +1,11 @@
+UPDATES - Digital Defense Limited Website (4 Oct 2026)
+
+Done:
+- Set up folders: css, img, pages, scripts, vid, plus index.html in the root
+- Moved all pages except index.html into the pages folder
+- index.html: nav links now use the pages/ prefix; replaced <name> with
+  <span class="brand">; removed target="blank" and the taeget typo
+- about.html: fully fixed (CSS/image/Home paths, nav-links class, unique title)
+- contact, faq, news, services: fixed CSS link, logo path and Home link
+
+-Ryan
